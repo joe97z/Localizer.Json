@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>net9.0</TargetFramework>
+	  <ImplicitUsings>enable</ImplicitUsings>
+	  <Nullable>enable</Nullable>
+	  <PackageId>Localizer.Json</PackageId>
+	  <Version>1.1.1</Version>
+	  <Authors>Hovsep Dishoyan</Authors>
+	  <Description>A library for Using Json files for localization</Description>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <TargetFramework>net9.0</TargetFramework>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  <RepositoryUrl>https://github.com/joe97z/Localizer.Json</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\"/>
+	</ItemGroup>
+</Project>
